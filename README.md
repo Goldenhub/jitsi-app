@@ -6,7 +6,7 @@ Built for learning purpose
 - NodeJS + Express
 - Jitsi (JaaS)
 
-# Structure
+## Structure
 
 - /backend (Express App)
 - /jitsi (React application)
