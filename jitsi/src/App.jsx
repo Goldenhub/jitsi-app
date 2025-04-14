@@ -5,8 +5,8 @@ const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
 
 function App() {
   const [jwtToken, setJwtToken] = useState("");
-  const mentorName = "John Doe"
-  const mentorEmail = "Example@gmail.com"
+  const mentorName = "John Doe Ben"
+  const mentorEmail = "ben@example.com"
 
   useEffect(() => {
     fetch(
@@ -25,7 +25,7 @@ function App() {
       useStaging={true}
       domain="8x8.vc"
       roomName={`${APP_ID}/Test`}
-      jwt={jwtToken} // Mentor gets JWT for moderator access
+      jwt={jwtToken}
       configOverwrite={{
         startWithAudioMuted: true,
         startWithVideoMuted: true,
